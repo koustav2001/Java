@@ -18,8 +18,8 @@ Causes the currently executing thread to sleep
 	}
 	public static void main(String args[])
 	{
-		SampleProg ob=new SampleProg();
-		SampleProg ob2=new SampleProg();
+		SampleProg_1 ob=new SampleProg_1();
+		SampleProg_1 ob2=new SampleProg_1();
 		ob.start();
 		ob2.start();
 	}
